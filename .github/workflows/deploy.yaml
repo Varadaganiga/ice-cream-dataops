@@ -29,7 +29,7 @@ jobs:
 
     environment: ${{ matrix.environment }}
     env:
-      # Cognite Toolkit environment varia
+      # Cognite Toolkit environment variable
       CDF_PROJECT: cdf-bootcamp-51-${{ matrix.environment }} # change <n> to your project number!
 
       CDF_CLUSTER: westeurope-1
